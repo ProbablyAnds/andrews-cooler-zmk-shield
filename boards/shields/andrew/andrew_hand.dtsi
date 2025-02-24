@@ -1,5 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h>
-
+#include "andrew_hand-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your dtsi
 
 / {
@@ -19,5 +18,12 @@
         // |LKey 25|LKey 26|LKey 27|LKey 28|LKey 29              |RKey 25|RKey 26|RKey 27
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)               RC(4,5) RC(4,6) RC(4,7)
         >;
+    };
+};
+
+/ {
+    chosen {
+        zmk,physical-layout = &kgoh_jian_6col_layout;
+        // Other chosen items
     };
 };
