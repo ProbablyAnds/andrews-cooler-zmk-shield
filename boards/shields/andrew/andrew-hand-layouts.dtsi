@@ -1,0 +1,6 @@
+#include <layouts/kgoh/jian/6column.dtsi>
+
+  &kgoh_jian_6col_layout {
+    transform = <&kgoh_jian_6col_transform>;
+    kscan =  <&kgoh_jian_6col_kscan>;
+};
